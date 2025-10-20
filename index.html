@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeQuest – Tantangan Level Finansial</title>
+
+  <!-- CSS eksternal -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font & Icon (opsional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>💎 LifeQuest</h1>
+      <p>Tingkatkan kemampuan finansialmu, satu level demi satu level!</p>
+    </header>
+
+    <!-- Progress bar -->
+    <section class="progress-section">
+      <div class="progress-info">
+        <span id="level-text">Level 1 dari 100</span>
+        <span id="progress-percent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+    </section>
+
+    <!-- Level list -->
+    <main id="level-list" class="level-list">
+      <!-- Level cards akan diisi lewat JS -->
+    </main>
+
+    <!-- Tombol Undo -->
+    <div class="undo-section">
+      <button id="undo-btn" class="undo-btn">⏪ Kembalikan ke Level Sebelumnya</button>
+    </div>
+
+    <!-- Modal untuk tips -->
+    <div id="tips-modal" class="modal hidden">
+      <div class="modal-content">
+        <h2>🎯 Tips Level <span id="modal-level"></span></h2>
+        <p id="modal-tips"></p>
+        <button id="close-modal" class="close-modal">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script utama -->
+  <script src="script.js"></script>
+</body>
+</html>

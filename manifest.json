@@ -1,7 +1,7 @@
 {
-  "name": "LifeQuest",
-  "short_name": "LifeQuest",
-  "description": "Game level kehidupan — capai target finansial dari Rp300rb hingga 60M!",
+  "name": "Freedom Financial",
+  "short_name": "FreedomFin",
+  "description": "Game level kehidupan — capai kebebasan finansial langkah demi langkah!",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f8fafc",
